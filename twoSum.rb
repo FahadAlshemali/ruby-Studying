@@ -1,8 +1,6 @@
 
 def two_sum(nums, target)
-    nums = [1,3,5,7,6]
     my_hash = {}
-    target = 9
     result = []
     nums.each_with_index do |value , index|
       if my_hash[target-value] != nil
